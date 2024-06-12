@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Chess-board {
+    border: 1px Solid black;
+    width: 480px;
+    height: 480px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cell-white {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.cell-black {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+
+}
